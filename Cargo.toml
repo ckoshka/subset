@@ -1,0 +1,19 @@
+[package]
+name = "subset"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.5.1"
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+bumpalo-herd = "0.1"
+dashmap = "*"
+unicode-segmentation = "1.7.1"
+bumpalo = "3.11"
+memmap = "*"
+
+[dependencies.term_macros]
+git = "https://github.com/ckoshka/term_macros"
